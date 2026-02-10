@@ -29,15 +29,11 @@ Each NO₂ concentration value \( x \) is transformed into a new variable \( z \
 z = x + a_r \sin(b_r x)
 \]
 
-where the parameters depend on the university roll number \( r \):
+Where:
 
-\[
-a_r = 0.5 \times (r \bmod 7)
-\]
-
-\[
-b_r = 0.3 \times ((r \bmod 5) + 1)
-\]
+a_r = 0.05 ∗ (r mod 7)
+b_r = 0.3 ∗ (r mod 5 + 1)
+r is the university roll number
 
 ### Transformation Parameters
 
